@@ -1,0 +1,27 @@
+@import "~bootstrap/scss/bootstrap";
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mitr', sans-serif;
+    font-weight: bold;
+    .nav-users {
+        border-bottom: solid 3px;
+    }
+}
+
+.alert {
+    margin-top: 10px;
+}
+
+body {
+    background: #f8f8f8;
+    color: #29292e;
+}
+
+body,
+input,
+button,
+textarea {
+    font: 400 16px 'Fjalla One', sans-serif;
+}

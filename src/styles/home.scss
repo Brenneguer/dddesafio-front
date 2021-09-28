@@ -1,0 +1,134 @@
+.nav-users {
+    background-color: #6d6c6c81;
+    font-family: 'Open Sans', sans-serif;
+    .title {
+        margin-left: 50px;
+        font-style: italic
+    }
+    div {
+        text-align: center;
+        width: 100%;
+        align-items: center;
+    }
+}
+
+.body {
+    display: flex;
+    padding-bottom: 10px;
+    flex-direction: row;
+    .toggle-menu {
+        border-right: solid 3px;
+        height: 900px;
+        width: 250px;
+        padding-top: 20px;
+        img {
+            margin-top: 5px;
+            margin-left: 10px;
+            width: 25px;
+            height: 25px;
+            margin-bottom: 10px;
+        }
+        .menu-itens {
+            display: flex;
+            flex-direction: column;
+            text-align: initial;
+            .item {
+                img {
+                    width: 28px;
+                    height: 25px;
+                    margin-right: 3px;
+                }
+                display: flex;
+                align-items: baseline;
+                padding: 2px;
+                margin-right: 15px;
+            }
+            .item-link {
+                margin-left: 70px;
+                font-size: 13px;
+                margin-top: -10px;
+            }
+        }
+    }
+}
+
+.container-fluid {
+    max-width: 1650px;
+    .top-menu {
+        display: flex;
+        flex-direction: column;
+        height: 220px;
+        border: solid 3px;
+        .header {
+            background-color: #6d6c6c81;
+            h4 {
+                margin: 10px;
+            }
+        }
+        .filtros {
+            padding: 10px;
+            input {
+                width: 100%;
+            }
+        }
+        .footer {
+            display: flex;
+            flex-direction: row-reverse;
+            margin-right: 10px;
+            button {
+                background-color: #6d6c6c81;
+                color: #000000;
+                font-family: 'Open Sans', sans-serif;
+                img {
+                    width: 25px;
+                    height: 25px;
+                    margin-right: 5px;
+                }
+            }
+        }
+    }
+    .table-content {
+        display: flex;
+        margin-top: 10px;
+        border: solid 3px;
+        flex-direction: column;
+        .button-element {
+            display: flex;
+            padding: 20px;
+        }
+        button {
+            background-color: #6d6c6c81;
+            color: #000000;
+            font-family: 'Open Sans', sans-serif;
+            img {
+                width: 25px;
+                height: 25px;
+                margin-right: 5px;
+            }
+        }
+        .table {
+            padding: 10px;
+            td {
+                button {
+                    padding: 1px;
+                    margin: 3px;
+                    img {
+                        width: 25px;
+                        height: 25px;
+                    }
+                }
+                div {
+                    text-align: center;
+                }
+            }
+            .input-checkbox {
+                text-align: center;
+                input {
+                    margin-top: 5px;
+                    width: 18px;
+                    height: 18px;
+                }
+            }
+        }
+    }
+}
